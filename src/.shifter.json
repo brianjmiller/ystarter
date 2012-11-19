@@ -1,0 +1,6 @@
+{
+    "strict": true,
+    "coverage": false,
+    "lint": "config",
+    "csslint": true
+}

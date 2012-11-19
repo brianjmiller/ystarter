@@ -1,0 +1,11 @@
+{
+    "name": "Y Starter",
+    "description": "TODO",
+    "url": "http://yuitraining.com/",
+    "options": {
+        "outdir": "doc/api",
+        "external": {
+            "data": "http://yuilibrary.com/yui/docs/api/data.json"
+        }
+    }
+}

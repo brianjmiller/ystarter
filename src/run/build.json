@@ -1,0 +1,18 @@
+{
+    "name": "ystarter",
+    "shifter": {
+        "jsstamp": false
+    },
+    "builds": {
+        "config": {
+            "jsfiles": [
+                "config.js"
+            ]
+        },
+        "index": {
+            "jsfiles": [
+                "index.js"
+            ]
+        }
+    }
+}

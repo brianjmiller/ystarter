@@ -1,0 +1,9 @@
+[submodule "vendor/yui3"]
+	path = vendor/yui3
+	url = git://github.com/yui/yui3.git
+[submodule "vendor/yui3-gallery"]
+	path = vendor/yui3-gallery
+	url = git://github.com/yui/yui3-gallery.git
+[submodule "vendor/combohandler"]
+	path = vendor/combohandler
+	url = git://github.com/rgrove/combohandler.git

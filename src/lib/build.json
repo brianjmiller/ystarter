@@ -1,0 +1,37 @@
+{
+    "name": "ystarter",
+    "builds": {
+        "ystarter-app-builder":  { "jsfiles": [ "app/builder.js" ] },
+        "ystarter-app-core":     { "jsfiles": [ "app/core.js" ] },
+        "ystarter-app-v-base":   { "jsfiles": [ "app/v/base.js" ] },
+        "ystarter-app-v-signin": { "jsfiles": [ "app/v/signin.js" ] },
+        "ystarter-app-v-signup": { "jsfiles": [ "app/v/signup.js" ] },
+        "ystarter-app-v-home":   { "jsfiles": [ "app/v/home.js" ] },
+        "ystarter-m-base":       { "jsfiles": [ "m/base.js" ] },
+        "ystarter-ml-base":      { "jsfiles": [ "ml/base.js" ] },
+        "ystarter-v-base":       { "jsfiles": [ "v/base.js" ] },
+        "ystarter-w-base":       { "jsfiles": [ "w/base.js" ] },
+
+        "ystarter-app-core-css":     { "cssfiles": [ "app/core.css" ] },
+        "ystarter-app-v-base-css":   { "cssfiles": [ "app/v/base.css" ] },
+        "ystarter-app-v-signin-css": { "cssfiles": [ "app/v/signin.css" ] },
+        "ystarter-app-v-signup-css": { "cssfiles": [ "app/v/signup.css" ] },
+        "ystarter-app-v-home-css":   { "cssfiles": [ "app/v/home.css" ] }
+    },
+    "rollups": {
+        "ystarter": {
+            "files": [
+                "ystarter-app-builder",
+                "ystarter-app-core",
+                "ystarter-app-v-base",
+                "ystarter-app-v-signin",
+                "ystarter-app-v-signup",
+                "ystarter-app-v-home",
+                "ystarter-m-base",
+                "ystarter-ml-base",
+                "ystarter-v-base",
+                "ystarter-w-base"
+            ]
+        }
+    }
+}

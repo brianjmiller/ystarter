@@ -1,0 +1,125 @@
+{
+    "ystarter": {
+        "use": [
+            "ystarter-app-builder",
+            "ystarter-app-core",
+            "ystarter-app-v-base",
+            "ystarter-app-v-signin",
+            "ystarter-app-v-signup",
+            "ystarter-app-v-home",
+            "ystarter-m-base",
+            "ystarter-ml-base",
+            "ystarter-v-base",
+            "ystarter-w-base",
+
+            "ystarter-app-core-css",
+            "ystarter-app-v-base-css",
+            "ystarter-app-v-signin-css",
+            "ystarter-app-v-signup-css",
+            "ystarter-app-v-home-css"
+        ],
+        "submodules": {
+            "ystarter-app-builder": {
+                "requires": [
+                    "ystarter-app-core",
+                    "ystarter-m-user-base",
+                    "event-resize",
+                    "base-build"
+                ]
+            },
+            "ystarter-app-core": {
+                "requires": [
+                    "ystarter-app-core-css",
+                    "app",
+                    "base-build",
+                    "ystarter-app-v-signin",
+                    "ystarter-app-v-signup",
+                    "ystarter-app-v-home"
+                ]
+            },
+            "ystarter-app-v-base": {
+                "requires": [
+                    "ystarter-app-v-base-css",
+                    "ystarter-v-base",
+                    "base-build"
+                ]
+            },
+            "ystarter-app-v-signin": {
+                "requires": [
+                    "ystarter-app-v-signin-css",
+                    "ystarter-app-v-base",
+                    "ystarter-w-login",
+                    "base-build"
+                ]
+            },
+            "ystarter-app-v-signup": {
+                "requires": [
+                    "ystarter-app-v-signup-css",
+                    "ystarter-app-v-base",
+                    "ystarter-w-acct_create",
+                    "base-build"
+                ]
+            },
+            "ystarter-app-v-home": {
+                "requires": [
+                    "ystarter-app-v-home-css",
+                    "ystarter-app-v-base",
+                    "base-build"
+                ]
+            },
+
+            "ystarter-m-base": {
+                "requires": [
+                    "model",
+                    "base-build"
+                ]
+            },
+            "ystarter-m-user-base": {
+                "requires": [
+                    "ystarter-m-base",
+                    "base-build"
+                ]
+            },
+
+            "ystarter-ml-base": {
+                "requires": [
+                    "model-list",
+                    "base-build"
+                ]
+            },
+
+            "ystarter-v-base": {
+                "requires": [
+                    "view",
+                    "base-build"
+                ]
+            },
+
+            "ystarter-w-base": {
+                "requires": [
+                    "widget",
+                    "gallery-makenode",
+                    "base-build"
+                ]
+            },
+            "ystarter-w-acct_create": {
+                "requires": [
+                    "ystarter-w-base",
+                    "base-build"
+                ]
+            },
+            "ystarter-w-login": {
+                "requires": [
+                    "ystarter-w-base",
+                    "base-build"
+                ]
+            },
+
+            "ystarter-app-core-css": { "type": "css" },
+            "ystarter-app-v-base-css": { "type": "css" },
+            "ystarter-app-v-signin-css": { "type": "css" },
+            "ystarter-app-v-signup-css": { "type": "css" },
+            "ystarter-app-v-home-css": { "type": "css" }
+        }
+    }
+}
