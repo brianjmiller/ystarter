@@ -1,7 +1,8 @@
 {
+    "version": "0.0.2",
     "name": "Y Starter",
-    "description": "TODO",
-    "url": "http://yuitraining.com/",
+    "description": "Sample App built with YUI expected directory structure",
+    "url": "http://yuitraining.com/ystarter",
     "options": {
         "outdir": "doc/api",
         "external": {
