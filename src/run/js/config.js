@@ -2,34 +2,30 @@
 YUI.GlobalConfig = {
     filter: "debug",
     combine: true,
-    comboBase: "/combo?",
-    root: "vendor/yui3/build/",
-    base: "/vendor/yui3/build/",
+    comboBase: "/ystarter/combo/yui3?",
+    root: "build/",
     groups: {
         gallery: {
             combine: true,
-            comboBase: "/combo?",
-            root: "vendor/yui3-gallery/build/",
-            base: "/vendor/yui3-gallery/build/",
+            comboBase: "/ystarter/combo/yui3-gallery?",
+            root: "build/",
             patterns: {
                 "gallery-": {},
                 "gallerycss-": { type: "css" }
             }
         },
         localjs: {
-            base: "/build/",
             combine: true,
-            comboBase: "/combo?",
-            root: "build/",
+            comboBase: "/ystarter/combo/ystarter?",
+            root: "",
             modules: {
                 "ystarter": {}
             }
         },
         localcss: {
-            base: "/build/",
             combine: true,
-            comboBase: "/combo?",
-            root: "build/",
+            comboBase: "/ystarter/combo/ystarter?",
+            root: "",
             modules: {
                 "ystarter-app-core-css": { type: "css" },
                 "ystarter-app-v-base-css": { type: "css" },

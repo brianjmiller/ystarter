@@ -6,7 +6,7 @@ YUI().use(
     function (Y) {
         Y.log("Building App Core", "debug", "index");
         try {
-            Y.Starter.App.Build();
+            Y.YStarter.App.Build();
         } catch (ex) {
             Y.error("App Build catch: " + ex);
         }

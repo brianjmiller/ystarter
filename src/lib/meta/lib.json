@@ -24,6 +24,7 @@
                     "ystarter-app-core",
                     "ystarter-m-user-base",
                     "event-resize",
+                    "cookie",
                     "base-build"
                 ]
             },
